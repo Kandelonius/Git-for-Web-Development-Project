@@ -5,42 +5,89 @@ https://codepen.io/Kandelonius/pen/BaNJgKd?editors=1100
     2. What is HTML used for? 
         The foundation of a website.
     3. What is an attribute and where do we put it? 
+        An attribute is a modification of an element and is put in the first part of an element declaration.
     4. What is the h1 tag used for? How many times should I use it on a page?
         The main heading of a page. It should only be used once.
     5. Name two tags that have required attributes.
         img tag and a tag.
     6. What do we put in the head of our HTML document? 
+        We'd put the title of the document in the head.
     7. What is an id? 
+        a way to add specificity to an element.
     8. What elements can I add an id to? 
+        an id can be added to any element
     9. How many times can I use the same id on a page? 
+        id is only used once. It distinguishes a tag from all of the others of the same type.
     10. What is a class? 
+        a way to add specificity to multiple elements
     11. What elements can I add a class to? 
+        classes can be added to any element
     12. How many times can I use the same class on a page? 
+        there is no limit.
     13. How do I get my link to open in a new tab?
+        target="_blank"
     14. What is the alt attribute used for? 
+        to assist people with screen readers describe images
     15. How do I reference an id?
+        An id is referenced using a # symbol in the CSS. In HTML it's called using "id='name'"
     16. What is the difference between a section and a div
+        section is semantic
     17. What is CSS used for? 
+        making a website look better.
     18. How to we select an element? Example - every h2 on the page
+        h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        a class would be used for multiple elements like to format several images with the same border,
+        and an id would be used to distinguish like elements like formatting a single h2 to be upercase
     20. How do we select classes in CSS?
+        .classname
     21. How do we select a p element with a single class of “human””?
+        p.human{}
     22. What is a parent child selector? When would this be useful? 
+        parent child selectors add specificity based on the hierarchy of the code. It can be useful
+        when you need to target a specific element within another element.
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar a {}
     24. What is a pseudo selector?
+        it specifies a special state like hover:
     25. What do we use the change the spacing between lines?
+        line-height:
     26. What do we use to change the spacing between letters?
+        letter-spacing:
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform:uppercace | lowercase | capitalize;
     28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black;
     29. How do I select everything on the page? 
+        *{}
     30. How do I write a comment in CSS?
+        /* comment */
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm  and you must be careful because it cannot be undone and there is no confirmation.
     34. Why should I use version control? 
+        so that you always have a usable version of your code in case you update and there is 
+        some kind of bug.
     35. How often should I commit to github?
+        every 20 minutes or after finishing an important task.
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
+        -fork and ensure you get your own version
+        -add TL as a collaborator
+        -clone using the url then type "git clone <link-to-repo>" and cd into repo
+        -branch on fork git checkout -b 'firstname-lastname'
+        -git code . to open vscode and make changes to the file
+        -git add . to add changes to git
+        -git commit -m "useful message"
+        -git push -u origin branch-name
+        -go to github and click the branch button then click your branch then click 
+            "New pull request" button
+        -add TL as a reviewer
+        -submit
 
 Stretch Questions
 
