@@ -1,12 +1,14 @@
+https://codepen.io/Kandelonius/pen/BaNJgKd?editors=1100
+
     1. What is Semantic HTML? 
-    HTML that gives meaning to your page.
+        HTML that gives meaning to your page. Examples include nav, header, h1-h6, etc.
     2. What is HTML used for? 
-    The foundation of a website.
+        The foundation of a website.
     3. What is an attribute and where do we put it? 
     4. What is the h1 tag used for? How many times should I use it on a page?
-    The main heading of a page. It should only be used once.
+        The main heading of a page. It should only be used once.
     5. Name two tags that have required attributes.
-    img tag and a tag.
+        img tag and a tag.
     6. What do we put in the head of our HTML document? 
     7. What is an id? 
     8. What elements can I add an id to? 
